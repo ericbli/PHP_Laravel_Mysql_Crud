@@ -1,9 +1,13 @@
 # PHP_Laravel_Mysql_Crud
 
 1. set up wamp server
+
 2. put lsapp in WWW of wamp_server
+
 3. in C:\wamp64\bin\apache\apache2.4.23\conf\extra
+
 edit  file: httpd-vhosts.conf to add:
+
 ####################################
 <VirtualHost *:80>
 	ServerName lsapp
@@ -25,9 +29,13 @@ edit file host to add:
 Please note some important usage for Laravel:
 
 $ php artisan make:controller Postcontroller
+
 $ php artisan make:controller Postcontroller --resource
+
 $ php artisan make:model Post -m
+
 $ php artisan migrate
+
 .......................................
 $ php artisan tinker
 
@@ -54,14 +62,19 @@ composer require "laravelcollective/html":"^5.4.0"
 
 
 $ composer require unisharp/laravel-ckeditor
+
 $ php artisan vendor:publish --tag=ckeditor
 
 -------------------------------------------------------------------
 $ php artisan make:auth   //自动产生login注册页面
 
 $ php artisan make:migration add_user_id_to_posts    //然后到migrations去修改文件
+
 $ php artisan migrate
+
 $ php artisan make:migration add_cover_image_to_posts  //然后到migrations去修改文件
+
 $ php artisan migrate
 ----------------------------------------------------------------------------
+
 $ php artisan storage:link     //The [public/storage] directory has been linked.外部可以访问storage！！！
