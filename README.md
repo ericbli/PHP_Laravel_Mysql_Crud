@@ -9,6 +9,7 @@
 edit  file: httpd-vhosts.conf to add:
 
 ####################################
+
 <VirtualHost *:80>
 	ServerName lsapp
 	DocumentRoot c:/wamp64/www/lsapp/public	
@@ -18,6 +19,7 @@ edit  file: httpd-vhosts.conf to add:
 		Require local
 	</Directory>
 </VirtualHost>
+
 ##########################################
 
 4. in C:\Windows\System32\drivers\etc
