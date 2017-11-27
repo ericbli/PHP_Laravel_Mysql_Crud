@@ -19,11 +19,17 @@ edit  file: httpd-vhosts.conf to add:
 	</Directory>
 </VirtualHost>
 ##########################################
+
 4. in C:\Windows\System32\drivers\etc
+
 edit file host to add:
+
 ##########################
+
 127.0.0.1 lsapp
+
 ##########################
+
 5. config Mysql
 
 Please note some important usage for Laravel:
