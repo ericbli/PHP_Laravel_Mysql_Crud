@@ -41,6 +41,8 @@ $ php artisan make:controller PagesController
 npm install
 npm run dev
 npm run watch
+# add own CSS in file:
+lsapp/resources/assets/sass/_custom.scss
 
 $ php artisan make:controller Postcontroller
 
