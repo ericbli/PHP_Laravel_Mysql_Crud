@@ -36,6 +36,12 @@ edit file host to add:
 
 Please note some important usage for Laravel:
 
+$ php artisan make:controller PagesController
+
+npm install
+npm run dev
+npm run watch
+
 $ php artisan make:controller Postcontroller
 
 $ php artisan make:controller Postcontroller --resource
