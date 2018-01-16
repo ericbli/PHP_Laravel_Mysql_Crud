@@ -47,12 +47,13 @@ lsapp/resources/assets/sass/_custom.scss
 $ php artisan make:controller Postcontroller
 
 $ php artisan make:controller Postcontroller --resource
-
+#makePostmodel with migration posibility:
 $ php artisan make:model Post -m
-
+#From model to databese table:
 $ php artisan migrate
 
 .......................................
+表中插入数据:
 $ php artisan tinker
 
 >>> App\Post::count()
@@ -64,7 +65,7 @@ $ php artisan tinker
 >>> $post->body='This is the post body!';
 
 >>> $post->save();
-
+..................................................................
 $ php artisan route:list
 
 
