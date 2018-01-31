@@ -46,7 +46,9 @@ npm run watch
 
 # add own CSS in file:
 lsapp/resources/assets/sass/_custom.scss
+
 in lsapp/resources/assets/sass/app.scss add:
+
 @import "custom";
 
 $ php artisan make:controller Postcontroller
