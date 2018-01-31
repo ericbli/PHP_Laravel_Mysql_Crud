@@ -73,9 +73,13 @@ $ php artisan tinker
 
 >>> $post->save();
 ..................................................................
+
 $ php artisan route:list
-
-
+in web-php input:
+...................
+Route::resource('posts','PostsController');
+...................
+$ php artisan route:list
 ------------------------------------------------------------------
 
 https://laravelcollective.com/docs/5.4/html
